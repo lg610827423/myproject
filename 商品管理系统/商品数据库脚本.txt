@@ -1,0 +1,10 @@
+create table mldn;
+USE mldn;
+DROP table if exists product;
+CREATE table product(
+	id		INT(4)			PRIMARY KEY,
+	name		VARCHAR(30)		NOT NULL,
+	price		FLOAT(7,2),
+	count		INT(5),
+	factory		VARCHAR(30)
+);
